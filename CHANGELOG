@@ -1,0 +1,14 @@
+## [0.0.1] - 2024-09-11
+  
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+### Added
+-Open File push button added which opens a new window for the user to select a .csv OR .wav file
+-Export File push button added which utilizes the .csv file (must use the open file button first to open the .csv file) in which this .csv file will be converted into a .wav file
+-Added Bit Depth and Sample Rate dropdown menus for the user to select while exporting their .csv file into a .wav file (make sure to select these first prior to exporting)
+-Added Play / Stop / Pause buttons which Play / Stop / Pause the sound that is playing from the selected .wav file
+-Added 5 dial switches which control Volume, Timbre, Time, Unison, and Reverb (Volume only one that is functioning correctly)
+
+## [0.0.2] - 2024-09-11
