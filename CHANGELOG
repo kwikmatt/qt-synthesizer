@@ -11,4 +11,7 @@ All notable changes to this project will be documented in this file.
 -Added Play / Stop / Pause buttons which Play / Stop / Pause the sound that is playing from the selected .wav file
 -Added 5 dial switches which control Volume, Timbre, Time, Unison, and Reverb (Volume only one that is functioning correctly)
 
-## [0.0.2] - 2024-09-11
+## [0.0.2] - 2024-09-18
+
+### Removed
+-Removed Timbre, Time, Unison, and Reverb dial buttons / LCD screens
