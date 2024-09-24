@@ -15,3 +15,8 @@ All notable changes to this project will be documented in this file.
 
 ### Removed
 -Removed Timbre, Time, Unison, and Reverb dial buttons / LCD screens
+
+## [0.0.3] - 2024-09-24
+
+### Added
+-Added a minimum and maximum datapoint value per .csv file that the user can upload (minimum 100 datapoints and maximum 50,000 datapoints)
