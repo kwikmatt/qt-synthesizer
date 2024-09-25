@@ -21,3 +21,11 @@ All notable changes to this project will be documented in this file.
 ### Added
 -Added a minimum and maximum datapoint value per .csv file that the user can upload (minimum 100 datapoints and maximum 50,000 datapoints)
 -Added a chart push button which will open a separate window displaying a chart that outputs the datapoints 
+
+## [0.0.4] - 2024-09-25
+
+### Added
+-Added a chart diagram when the user clicks on the "Chart" button which graphs the data linearly
+-Added a Max Value and Datapoint # line edit section for the user to indicate the max value for the datapoints and the number of datapoints the file contains (this is for modifying the chart according to the x and y axis,
+where the x axis is the number of datapoints in the file and the y axis is the max value of the datapoints)
+-Added a confirm button which is required for the user to press after they input the max value and datapoint values
