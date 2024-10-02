@@ -4,6 +4,14 @@
 
 All notable changes to this project will be documented in this file.
 
+### Known Issues
+-Program crashes when uploading a second file (unknown cause) (medium prio)
+-Extracting from .csv to wav works initially -- but it seems that the bit depth is not converting properly (high prio)
+
+### To Be Added
+-Timelapse circle on the chart so that the user can visually "see" where the sound is with respect to the x and y axis of the plot
+-Tuning dial so that the user can add a time delay for when the .wav file is being played (slow down the timelapse circle)
+
 ### Added
 -Open File push button added which opens a new window for the user to select a .csv OR .wav file
 -Export File push button added which utilizes the .csv file (must use the open file button first to open the .csv file) in which this .csv file will be converted into a .wav file
