@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Known Issues
 -Program crashes when uploading a second file (unknown cause) (medium prio)
--Extracting from .csv to wav works initially -- but it seems that the bit depth is not converting properly (high prio)
+-Extracting from .csv to wav works initially -- but the Bit Depth and Sample Rate combo boxes are unable to properly set the user selected values and play sound at all (high prio)
 
 ### To Be Added
 -Timelapse circle on the chart so that the user can visually "see" where the sound is with respect to the x and y axis of the plot
@@ -36,3 +36,8 @@ All notable changes to this project will be documented in this file.
 -Added a chart diagram when the user clicks on the "Chart" button which graphs the data linearly
 -Added a Max Value and Datapoint # line edit section for the user to indicate the max value for the datapoints and the number of datapoints the file contains (this is for modifying the chart according to the x and y axis,
 where the x axis is the number of datapoints in the file and the y axis is the max value of the datapoints)
+
+## [0.0.5] - 2024-10-03
+
+### Fixed
+-Fixed .csv to .wav export conversion where the converted .wav file did not store the datapoints correctly and ultimately play the correct or any sound at all
