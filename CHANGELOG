@@ -6,7 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ### Known Issues
 -Program crashes when uploading a second file (unknown cause) (medium prio)
--Extracting from .csv to wav works initially -- but the Bit Depth and Sample Rate combo boxes are unable to properly set the user selected values and play sound at all (high prio)
+
+### Fixed 
+-Fixed bit depth and sample rate combo box conversion issues -- file now converts appropriately
 
 ### To Be Added
 -Timelapse circle on the chart so that the user can visually "see" where the sound is with respect to the x and y axis of the plot
@@ -41,3 +43,8 @@ where the x axis is the number of datapoints in the file and the y axis is the m
 
 ### Fixed
 -Fixed .csv to .wav export conversion where the converted .wav file did not store the datapoints correctly and ultimately play the correct or any sound at all
+
+## [0.0.6] - 2024-10-10
+
+### Fixed
+-Fixed combo box SampleRate and BitDepth as these values the user selects appropriately converts the .csv file to a .wav file without file corruption
