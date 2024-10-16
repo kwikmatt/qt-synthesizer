@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 ### To Be Added
 -Timelapse circle on the chart so that the user can visually "see" where the sound is with respect to the x and y axis of the plot
 -Tuning dial so that the user can add a time delay for when the .wav file is being played (slow down the timelapse circle)
+-Integrate upsampling / downsampling -- figure out the best method for this application / best overall UI for ease of use for the user
 
 ### Added
 -Open File push button added which opens a new window for the user to select a .csv OR .wav file
