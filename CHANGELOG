@@ -49,3 +49,9 @@ where the x axis is the number of datapoints in the file and the y axis is the m
 
 ### Fixed
 -Fixed combo box SampleRate and BitDepth as these values the user selects appropriately converts the .csv file to a .wav file without file corruption
+
+## [0.0.7] - 2024-10-21
+
+### Added
+-Added Frequency (Hz) and Data Points labels / LCD screens / Horizontal sliders to the application which is utilized for the Resampling process
+-Added various labels throughout the application [Resampling Tuners, WAV Configuration, Charting]
